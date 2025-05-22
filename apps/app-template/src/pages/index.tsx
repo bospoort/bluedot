@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div className="section-body gap-2">
       <NewText.H1>app-template</NewText.H1>
-      <NewText.P>This is some example text</NewText.P>
+      <NewText.P>This is some example text. Let's see how this works in my test says Maarten. </NewText.P>
       <ExampleComponent />
       <CTALinkOrButton onClick={() => setCount((c) => c + 1)}>
         count is {count}
